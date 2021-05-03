@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "crud-heroes-19ebd": {
+      "hosting": {
+        "Heroes": [
+          "crud-heroes-19ebd"
+        ]
+      }
+    }
+  }
+}

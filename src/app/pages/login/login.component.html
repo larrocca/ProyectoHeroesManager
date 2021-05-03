@@ -1,0 +1,21 @@
+<div class="container mt-5">
+    <h1>
+        Login
+    </h1>
+    <form ngForm="login">
+        <div class="form-row mt-4">
+            <div class="row mt-5">
+                <label for="inputAddress">Usuario</label>
+                <input [(ngModel)]="emailABuscar" name="emailABuscar" type="text" class="form-control" placeholder="Ingresar usuario">
+            </div>
+            <div class="row mt-5">
+                <label for="inputAddress">Contraseña</label>
+                <input [(ngModel)]="contrasenaABuscar" name="contrasenaABuscar" type="password" class="form-control" placeholder="Ingresar contraseña">
+            </div>
+        </div>
+    </form>
+    <p class="mt-5 text-center">
+        ¿Aun no estas registrado? <a [routerLink]="['../registro']">Registrate haciendo click aca</a>
+    </p>
+    <button type="submit" (click)="logearse()" class="btn btn-primary mt-5">Logearse</button>
+</div>

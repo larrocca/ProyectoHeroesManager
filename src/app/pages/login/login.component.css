@@ -1,0 +1,6 @@
+.form-container {
+    justify-content: center;
+    display: flex;
+    margin: 10% 50%;
+    width: 40%;
+}
