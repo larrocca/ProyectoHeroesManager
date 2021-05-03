@@ -15,7 +15,7 @@ export class HeroesService {
   ) {}
 
   getUsuarios(){
-    return this.http.get<Usuario>('https://heroes-14acf-default-rtdb.firebaseio.com/usuarios.json')
+    return this.http.get<Usuario[]>('https://heroes-14acf-default-rtdb.firebaseio.com/usuarios.json')
   }
   
   guardarUsuario(usuario:Usuario){
